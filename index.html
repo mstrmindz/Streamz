@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- The head section contains metadata, character encoding, viewport settings, and linked CSS files -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,16 +13,24 @@
       crossorigin="anonymous"
     />
   </head>
+
+  <!-- The body section contains the main content of the page -->
   <body>
     <div class="container mt-5">
+      <!-- The row and col-* classes are used to create a responsive grid layout -->
       <div class="row justify-content-center">
         <div class="col-md-8">
+          <!-- The card component is a basic Bootstrap building block for creating user interfaces -->
           <div class="card">
+            <!-- The card-header class is used to create a header for the card -->
             <div class="card-header">
               <h4 class="card-title">Cantek Video Streaming Project</h4>
             </div>
+            <!-- The card-body class is used to create a body for the card -->
             <div class="card-body">
+              <!-- The video tag is used to embed video content in the web page -->
               <video id="videoPlayer" width="100%" height="auto" controls>
+                <!-- The source tag is used to specify the video source and type -->
                 <source
                   src="https://streamzbucket01.s3.amazonaws.com/DaniLeigh+-+Easy+ft.+Chris+Brown+(Remix).mp4"
                   type="video/mp4"
@@ -32,6 +41,7 @@
         </div>
       </div>
     </div>
+
     <!-- Add the following Bootstrap JavaScript link -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
