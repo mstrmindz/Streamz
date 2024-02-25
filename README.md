@@ -11,7 +11,10 @@ Bootstrap is used for layout and styling to make the interface responsive and mo
 
 Demo
 
-A live demo is hosted here: https://main.d30ysi7b09nf3n.amplifyapp.com/
+A live demo is hosted here: 
+
+https://main.d30ysi7b09nf3n.amplifyapp.com/
+https://streamz-chi.vercel.app/
 
 Features
 
